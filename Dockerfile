@@ -20,4 +20,4 @@ RUN wget --quiet --output-document=android-sdk.tgz https://dl.google.com/android
 ENV ANDROID_HOME=/android-sdk-linux
 ENV PATH=${PATH}:/android-sdk-linux/platform-tools/
 
-RUN echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter android-25 && \
+RUN echo y | /android-sdk-linux/tools/android --silent update sdk --no-ui --all --filter android-25
