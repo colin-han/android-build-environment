@@ -1,3 +1,7 @@
+# version
+Android SDK: 23, 24, 25
+Andriod build tools: 23.0.1, 25.0.2
+
 # Android build environment
 You can use this docker image to build android app in docker container. For example, you can use this image for GitLab pipeline.
 
